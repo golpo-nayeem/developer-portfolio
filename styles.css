@@ -5,10 +5,13 @@ font-family: 'Poppins', sans-serif;
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .orange{
     color: orange;
 }
-section{
+.flexible-{
     display: flex;
     margin-bottom: 160px;
 }
@@ -35,4 +38,31 @@ section{
      background-image: url(images/color.png);
      background-repeat: no-repeat;
      background-position: right;
+}
+.exp-items{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;  
+    border-radius: 10px; 
+    box-shadow: 10px 10px 40px gray;   
+    padding:20px;
+}
+.exp-section{
+    background-image: url(images/color2.png);
+    background-repeat: no-repeat;
+    background-position: left;
+
+}
+#border-slice1{
+    border-left: 7px solid;
+    border-image:linear-gradient(orange,tomato);
+    border-image-slice: 1;
+}
+#border-slice{
+    border-left: 7px solid;
+    border-image:linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
