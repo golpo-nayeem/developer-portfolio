@@ -10,6 +10,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 160px;
 }
 .half-w{
     width: 50%;
@@ -29,4 +30,9 @@ section{
 .top-banner{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.think_p{
+     background-image: url(images/color.png);
+     background-repeat: no-repeat;
+     background-position: right;
 }
